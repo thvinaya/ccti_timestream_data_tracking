@@ -10,12 +10,12 @@ def lambda_handler(event, context):
         'body': response
     }
 
-event = {
-    "platform":"Shipengine",
-    "parameters":{
-        "tracking_numbers":["780737387827","1Z20V8R90601379833"]
-    }
-}
+# event = {
+#     "platform":"Shipengine",
+#     "parameters":{
+#         "tracking_numbers":["780737387827","1Z20V8R90601379833"]
+#     }
+# }
 
 # context = None
 # lambda_handler(event,context)
